@@ -6,7 +6,8 @@ import {MEAT_API} from '../app.api';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 
-@Injectable()
+@Injectable()   
+
 export class RestaurantsService{
 constructor(private http:Http){
 
